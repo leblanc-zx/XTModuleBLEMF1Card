@@ -28,7 +28,7 @@ void xt_exchangeInstanceMethod(Class class, SEL originalSelector, SEL newSelecto
 }
 - (instancetype)xt_initWithDelegate:(id<CBCentralManagerDelegate>)delegate queue:(dispatch_queue_t)queue options:(NSDictionary<NSString *,id> *)options {
     
-    NSDictionary *objectDic = @{
+    NSDictionary *objectDic = @{ 
                                 @"Class": NSStringFromClass([delegate class]),
                                 @"Object": self,
                                 };
