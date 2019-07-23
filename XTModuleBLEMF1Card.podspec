@@ -33,7 +33,7 @@ TODO: Add long description of the pod here.
   #s.source_files = 'XTModuleBLEMF1Card/*.{h,m}'
   s.vendored_libraries = 'XTModuleBLEMF1Card/ThirdFSDK/**.a'
   # 配置子目录
-
+  
   s.subspec 'ThirdFSDK' do |thirdFSDK|
   thirdFSDK.source_files = 'XTModuleBLEMF1Card/ThirdFSDK/*'
   end
