@@ -8,7 +8,13 @@
 
 #import <UIKit/UIKit.h>
 #import "XTMF1CBPeripheral.h"
+
+#if TARGET_IPHONE_SIMULATOR
+//nothing
+#else
 #import "mPayBleLib.h"
+#import "BleComm.h"
+#endif
 
 typedef NS_ENUM(NSUInteger, XTBLEMF1NSErrorCode) {
     XTBLEMF1NSErrorCodeBLENotEnable = 1000,    //蓝牙不可用

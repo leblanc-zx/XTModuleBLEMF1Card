@@ -9,7 +9,6 @@
 #import "XTMF1BLEManager.h"
 #import "XTUtils.h"
 #import "CBCentralManager+XT.h"
-#import "BleComm.h"
 
 typedef NS_ENUM(NSUInteger, TimerState) {
     TimerStateFinish = 0,   //正常结束
