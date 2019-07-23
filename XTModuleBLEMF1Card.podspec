@@ -31,7 +31,7 @@ TODO: Add long description of the pod here.
   s.ios.deployment_target = '8.0'
 
   #s.source_files = 'XTModuleBLEMF1Card/*.{h,m}'
-
+  s.vendored_libraries = 'XTModuleBLEMF1Card/ThirdFSDK/**.a'
   # 配置子目录
 
   s.subspec 'ThirdFSDK' do |thirdFSDK|
