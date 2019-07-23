@@ -44,7 +44,7 @@ TODO: Add long description of the pod here.
 
   s.subspec 'BLEMF1CardReader' do |bleMF1CardReader|
   bleMF1CardReader.source_files = 'XTModuleBLEMF1Card/BLEMF1CardReader/*'
-  bleMF1CardReader.dependency 'XTModuleBLEMF1Card/Models'
+  bleMF1CardReader.dependency 'XTModuleBLEMF1Card/Models' 
   bleMF1CardReader.dependency 'XTModuleBLEMF1Card/ThirdFSDK'
   end
 
