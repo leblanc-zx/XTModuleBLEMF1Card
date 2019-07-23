@@ -418,7 +418,7 @@
 				);
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"\"$(SRCROOT)/XTModuleBLEMF1Card/ThirdFSDK\"",
+					"\"$(SRCROOT)/XTModuleBLEMF1Card/ThirdFSDK/mPayLib.a\"",
 				);
 				MACH_O_TYPE = staticlib;
 				ONLY_ACTIVE_ARCH = NO;
@@ -457,7 +457,7 @@
 				);
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"\"$(SRCROOT)/XTModuleBLEMF1Card/ThirdFSDK\"",
+					"\"$(SRCROOT)/XTModuleBLEMF1Card/ThirdFSDK/mPayLib.a\"",
 				);
 				MACH_O_TYPE = staticlib;
 				ONLY_ACTIVE_ARCH = NO;
