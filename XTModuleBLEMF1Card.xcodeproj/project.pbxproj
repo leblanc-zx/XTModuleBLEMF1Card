@@ -16,7 +16,6 @@
 		18C2E3C022E690470021867D /* CBCentralManager+XT.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C2E3AD22E690470021867D /* CBCentralManager+XT.m */; };
 		18C2E3C122E690470021867D /* BleComm.h in Headers */ = {isa = PBXBuildFile; fileRef = 18C2E3AF22E690470021867D /* BleComm.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		18C2E3C222E690470021867D /* mPayBleLib.h in Headers */ = {isa = PBXBuildFile; fileRef = 18C2E3B022E690470021867D /* mPayBleLib.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		18C2E3C322E690470021867D /* mPayLib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 18C2E3B122E690470021867D /* mPayLib.a */; };
 		18C2E3C422E690480021867D /* CBCentralManager+XT.h in Headers */ = {isa = PBXBuildFile; fileRef = 18C2E3B222E690470021867D /* CBCentralManager+XT.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		18C2E3C522E690480021867D /* XTMF1CBPeripheral.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C2E3B422E690470021867D /* XTMF1CBPeripheral.m */; };
 		18C2E3C622E690480021867D /* XTMF1WriteInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 18C2E3B522E690470021867D /* XTMF1WriteInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -26,6 +25,7 @@
 		18C2E3CA22E690480021867D /* XTMF1CardInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C2E3B922E690470021867D /* XTMF1CardInfo.m */; };
 		18C2E3CD22E6914A0021867D /* XTModuleBLEMF1Card.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 18C2E3CB22E6914A0021867D /* XTModuleBLEMF1Card.podspec */; };
 		18C2E3CE22E6914A0021867D /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 18C2E3CC22E6914A0021867D /* LICENSE */; };
+		18C2E3D022E6A1730021867D /* mPayLib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 18C2E3CF22E6A1720021867D /* mPayLib.a */; };
 		1D8A2B5392D25E64ABBBEF1B /* Pods_XTModuleBLEMF1Card.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C9B8C3A2E0C08F8F738D8DE /* Pods_XTModuleBLEMF1Card.framework */; };
 /* End PBXBuildFile section */
 
@@ -42,7 +42,6 @@
 		18C2E3AD22E690470021867D /* CBCentralManager+XT.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CBCentralManager+XT.m"; sourceTree = "<group>"; };
 		18C2E3AF22E690470021867D /* BleComm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BleComm.h; sourceTree = "<group>"; };
 		18C2E3B022E690470021867D /* mPayBleLib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mPayBleLib.h; sourceTree = "<group>"; };
-		18C2E3B122E690470021867D /* mPayLib.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = mPayLib.a; sourceTree = "<group>"; };
 		18C2E3B222E690470021867D /* CBCentralManager+XT.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CBCentralManager+XT.h"; sourceTree = "<group>"; };
 		18C2E3B422E690470021867D /* XTMF1CBPeripheral.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XTMF1CBPeripheral.m; sourceTree = "<group>"; };
 		18C2E3B522E690470021867D /* XTMF1WriteInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XTMF1WriteInfo.h; sourceTree = "<group>"; };
@@ -52,6 +51,7 @@
 		18C2E3B922E690470021867D /* XTMF1CardInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XTMF1CardInfo.m; sourceTree = "<group>"; };
 		18C2E3CB22E6914A0021867D /* XTModuleBLEMF1Card.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = XTModuleBLEMF1Card.podspec; sourceTree = "<group>"; };
 		18C2E3CC22E6914A0021867D /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		18C2E3CF22E6A1720021867D /* mPayLib.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = mPayLib.a; sourceTree = "<group>"; };
 		1C9B8C3A2E0C08F8F738D8DE /* Pods_XTModuleBLEMF1Card.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XTModuleBLEMF1Card.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		284EEA4C511C1E370FA7B7AF /* Pods-XTModuleBLEMF1Card.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XTModuleBLEMF1Card.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XTModuleBLEMF1Card/Pods-XTModuleBLEMF1Card.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -61,7 +61,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				18C2E3C322E690470021867D /* mPayLib.a in Frameworks */,
+				18C2E3D022E6A1730021867D /* mPayLib.a in Frameworks */,
 				1D8A2B5392D25E64ABBBEF1B /* Pods_XTModuleBLEMF1Card.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -120,7 +120,7 @@
 				18C2E3AD22E690470021867D /* CBCentralManager+XT.m */,
 				18C2E3AF22E690470021867D /* BleComm.h */,
 				18C2E3B022E690470021867D /* mPayBleLib.h */,
-				18C2E3B122E690470021867D /* mPayLib.a */,
+				18C2E3CF22E6A1720021867D /* mPayLib.a */,
 			);
 			path = ThirdFSDK;
 			sourceTree = "<group>";
@@ -418,7 +418,7 @@
 				);
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/XTModuleBLEMF1Card/ThirdFSDK/mPayLib",
+					"$(PROJECT_DIR)/XTModuleBLEMF1Card/ThirdFSDK",
 				);
 				MACH_O_TYPE = staticlib;
 				ONLY_ACTIVE_ARCH = NO;
@@ -457,7 +457,7 @@
 				);
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/XTModuleBLEMF1Card/ThirdFSDK/mPayLib",
+					"$(PROJECT_DIR)/XTModuleBLEMF1Card/ThirdFSDK",
 				);
 				MACH_O_TYPE = staticlib;
 				ONLY_ACTIVE_ARCH = NO;
