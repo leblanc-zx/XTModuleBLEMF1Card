@@ -53,6 +53,6 @@ TODO: Add long description of the pod here.
   # }
 
   # b = 'Pod/Classes/**/*.h'
-  s.frameworks = 'UIKit'
+  # s.frameworks = 'UIKit'
   s.dependency 'XTComponentUtils'
 end

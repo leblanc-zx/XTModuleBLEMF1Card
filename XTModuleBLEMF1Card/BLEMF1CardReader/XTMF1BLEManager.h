@@ -7,9 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "mPayBleLib.h"
 #import "XTMF1CBPeripheral.h"
-
+#import "mPayBleLib.h"
 
 typedef NS_ENUM(NSUInteger, XTBLEMF1NSErrorCode) {
     XTBLEMF1NSErrorCodeBLENotEnable = 1000,    //蓝牙不可用
