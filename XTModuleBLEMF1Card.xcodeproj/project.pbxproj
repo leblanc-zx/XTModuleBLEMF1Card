@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1887105222E6FABC000503A8 /* libmpayLib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1887105122E6FABC000503A8 /* libmpayLib.a */; };
 		18C2E3BA22E690470021867D /* XTMF1CardRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 18C2E3A622E690470021867D /* XTMF1CardRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		18C2E3BB22E690470021867D /* XTMF1BLEManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C2E3A722E690470021867D /* XTMF1BLEManager.m */; };
 		18C2E3BC22E690470021867D /* XTMF1CardParse.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C2E3A822E690470021867D /* XTMF1CardParse.m */; };
@@ -30,6 +31,7 @@
 
 /* Begin PBXFileReference section */
 		061D83E980749877779412A5 /* Pods-XTModuleBLEMF1Card.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XTModuleBLEMF1Card.release.xcconfig"; path = "Pods/Target Support Files/Pods-XTModuleBLEMF1Card/Pods-XTModuleBLEMF1Card.release.xcconfig"; sourceTree = "<group>"; };
+		1887105122E6FABC000503A8 /* libmpayLib.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libmpayLib.a; sourceTree = "<group>"; };
 		18C2E39A22E6900A0021867D /* XTModuleBLEMF1Card.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = XTModuleBLEMF1Card.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		18C2E39E22E6900A0021867D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		18C2E3A622E690470021867D /* XTMF1CardRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XTMF1CardRequest.h; sourceTree = "<group>"; };
@@ -59,6 +61,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1887105222E6FABC000503A8 /* libmpayLib.a in Frameworks */,
 				1D8A2B5392D25E64ABBBEF1B /* Pods_XTModuleBLEMF1Card.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -117,6 +120,7 @@
 				18C2E3AD22E690470021867D /* CBCentralManager+XT.m */,
 				18C2E3AF22E690470021867D /* BleComm.h */,
 				18C2E3B022E690470021867D /* mPayBleLib.h */,
+				1887105122E6FABC000503A8 /* libmpayLib.a */,
 			);
 			path = ThirdFSDK;
 			sourceTree = "<group>";
