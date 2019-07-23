@@ -34,6 +34,10 @@ TODO: Add long description of the pod here.
 
   # 配置子目录
 
+  s.subspec 'ThirdFSDK' do |thirdFSDK|
+  thirdFSDK.source_files = 'XTModuleBLEMF1Card/ThirdFSDK/*'
+  end
+
   s.subspec 'Models' do |models|
   models.source_files = 'XTModuleBLEMF1Card/Models/*'
   end
@@ -41,7 +45,7 @@ TODO: Add long description of the pod here.
   s.subspec 'BLEMF1CardReader' do |bleMF1CardReader|
   bleMF1CardReader.source_files = 'XTModuleBLEMF1Card/BLEMF1CardReader/*'
   bleMF1CardReader.dependency 'XTModuleBLEMF1Card/Models'
-  bleMF1CardReader.dependency 'XTModuleBLEMF1Card/3FSDK'
+  bleMF1CardReader.dependency 'XTModuleBLEMF1Card/ThirdFSDK'
   end
 
   # s.resource_bundles = {

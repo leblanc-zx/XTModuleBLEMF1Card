@@ -92,7 +92,7 @@
 		18C2E39C22E6900A0021867D /* XTModuleBLEMF1Card */ = {
 			isa = PBXGroup;
 			children = (
-				18C2E3AC22E690470021867D /* 3FSDK */,
+				18C2E3AC22E690470021867D /* ThirdFSDK */,
 				18C2E3A522E690470021867D /* BLEMF1CardReader */,
 				18C2E3B322E690470021867D /* Models */,
 				18C2E39E22E6900A0021867D /* Info.plist */,
@@ -113,7 +113,7 @@
 			path = BLEMF1CardReader;
 			sourceTree = "<group>";
 		};
-		18C2E3AC22E690470021867D /* 3FSDK */ = {
+		18C2E3AC22E690470021867D /* ThirdFSDK */ = {
 			isa = PBXGroup;
 			children = (
 				18C2E3B222E690470021867D /* CBCentralManager+XT.h */,
@@ -122,7 +122,7 @@
 				18C2E3B022E690470021867D /* mPayBleLib.h */,
 				18C2E3B122E690470021867D /* mPayLib.a */,
 			);
-			path = 3FSDK;
+			path = ThirdFSDK;
 			sourceTree = "<group>";
 		};
 		18C2E3B322E690470021867D /* Models */ = {
@@ -411,7 +411,11 @@
 				INFOPLIST_FILE = XTModuleBLEMF1Card/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/XTModuleBLEMF1Card/3FSDK/mPayLib",
@@ -440,7 +444,11 @@
 				INFOPLIST_FILE = XTModuleBLEMF1Card/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/XTModuleBLEMF1Card/3FSDK/mPayLib",

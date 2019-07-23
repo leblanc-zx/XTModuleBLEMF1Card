@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "MPayBleLib.h"
+#import "mPayBleLib.h"
 #import "XTMF1CBPeripheral.h"
 
 
